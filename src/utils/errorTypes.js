@@ -1,0 +1,13 @@
+/**
+ * @enum {string} - All error types
+ */
+const errorTypes = {
+    UNAUTHORIZED: 'UNAUTHORIZED',
+    JWT_TOKEN: 'JWT_TOKEN',
+    UNCONTROLLED_ERROR: 'UNCONTROLLED_ERROR',
+    VALIDATION_ERROR: 'VALIDATION_ERROR',
+    INVALID_CREDENTIAL: 'INVALID_CREDENTIAL',
+    INTERNAL_SERVER_ERROR: 'INTERNAL_SERVER_ERROR',
+}
+
+export default errorTypes
